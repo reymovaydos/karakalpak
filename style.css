@@ -1,0 +1,777 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-inner {
+    display: flex;
+    margin-left: 50px;
+}
+
+.logo img {
+    margin-top: 48px;
+}
+
+.text h2 {
+    margin-top: 48px;
+    margin-left: 10px;
+}
+
+.header-inner li {
+    padding: 0 35px;
+}
+.header-inner ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #1D3B53;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Georgia';
+    margin-left: 200px;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    background: #0CA941;
+    border-radius: 6px;
+    height: 41px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.sign-in h2 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.content h2 {
+    color: #374A3D;
+    font-size: 72px;
+    font-family: 'Times New Roman';
+    width: 616px;
+    font-variant: small-caps;
+    margin-left: 215px;
+    margin-top: 80px;
+    margin-bottom: 35px;
+}
+
+.header-info {
+    display: flex;
+}
+
+.content p {
+    font-size: 18px;
+    color: #707070;
+    font-variant: small-caps;
+    font-weight: 500;
+    width: 534px;
+    margin-left: 220px;
+}
+
+.shop {
+    width: 179px;
+    height: 67px;
+    border: 2px solid #0CA941;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.shop h3 {
+    font-size: 18px;
+    color: #374A3D;
+    font-weight: 600;
+}
+.container-1 {
+    display: flex;
+}
+
+.symbol img {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+.cactus {
+    width: 168px;
+    height: 187px;
+    background: #ffffff;
+    box-shadow: 22px 34px 50px 11px rgba(124, 164, 23, 0.08);
+    border-radius: 35px;
+    margin-left: 580px;
+}
+
+.landscape {
+    width: 1600px;
+    background: whitesmoke;
+    height: 285px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+}
+
+.plant {
+    margin-left: 100px;
+    width: 288px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section h2 {
+    width: 289px;
+    height: 86px;
+    font-variant: small-caps;
+    color: #374A3D;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Arial';
+}
+
+.section p {
+    width: 310px;
+    font-size: 16px;
+    font-variant: small-caps;
+    color: #5B7262;
+    font-weight: 500;
+    font-family: 'Georgia';
+}
+
+.section {
+    margin-top: 90px;
+}
+
+.container-2 {
+    display: flex;
+}
+
+.number {
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.number h2 {
+    font-size: 60px;
+    font-variant: small-caps;
+    color: #0CA941;
+    width: 83px;
+    height: 72px;
+    background : #ECF8F0;
+    transform: rotate(-33.13 deg);
+}
+
+.number p {
+    width: 161px;
+    font-size: 16px;
+    font-variant: small-caps;
+    color: #5B7262;
+    font-weight: 500;
+    font-family: 'Georgia';
+}
+
+.years {
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.years h2 {
+    font-size: 60px;
+    font-variant: small-caps;
+    color: #0CA941;
+    width: 83px;
+    height: 72px;
+    background : #ECF8F0;
+    transform: rotate(-33.13 deg);
+}
+
+.years p {
+    font-size: 16px;
+    width: 161px;
+    font-variant: small-caps;
+    color: #5B7262;
+    font-weight: 500;
+    font-family: 'Georgia';
+}
+
+.members {
+    margin-top: 90px;
+    margin-left: 50px;
+}
+.members h2 {
+    font-size: 60px;
+    font-variant: small-caps;
+    color: #0CA941;
+    width: 83px;
+    height: 72px;
+    background : #ECF8F0;
+    transform: rotate(-33.13 deg);
+}
+
+.members p {
+    font-size: 16px;
+    width: 161px;
+    font-variant: small-caps;
+    color: #5B7262;
+    font-weight: 500;
+    font-family: 'Georgia';
+}
+
+.professional-garden {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.professional-service h2{
+    font-size: 36px;
+    font-variant: small-caps;
+    font-weight: 400;
+    color: #374A3D;
+    font-family: 'Roboto';
+    margin-left: 226px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.professional-service p {
+    font-family: Helvetica;
+    font-size: 18px;
+    width: 457px;
+    color: #678570;
+    margin-left: 226px;
+    margin-bottom: 30px;
+}
+
+.read-more {
+    width: 179px;
+    border: 2px solid #0CA941;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 80px;
+    margin-left: 225px;
+}
+
+.read-more h2 {
+    color: #374A3D;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content-1 {
+    display: flex;
+}
+
+.img-1 img{
+    margin-top: 28px;
+    margin-left: 40px;
+}
+
+.plant-trees {
+    width: 268px;
+    height: 264px;
+    box-shadow: 8px 9px 42px rgba(12, 169, 65, 0.12);
+    border-radius: 10px;
+    background: aliceblue;
+    margin-top: 150px;
+    margin-left: 40px;
+}
+
+.container-3 {
+    display: flex;
+}
+
+.plant-trees img {
+    margin-left: 90px;
+    width: 103px;
+    height: 90px;
+    background: #EEFFF4;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.plant-trees h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #374A3D;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.plant-trees p {
+    width: 217px;
+    text-align: center;
+    color: #678570;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.pruning-plants {
+    width: 268px;
+    height: 264px;
+    background: aliceblue;
+    box-shadow: 14px 15px 62px rgba(12, 169, 65, 0.12);
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.pruning-plants img {
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 103px;
+    height: 90px;
+    background: rgba(240, 196, 25, 0.09);
+    margin-bottom: 15px;
+    border-radius: 30px;
+}
+
+.pruning-plants h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #374A3D;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.pruning-plants p {
+    width: 217px;
+    text-align: center;
+    color: #678570;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.plant-trees-1 {
+    width: 268px;
+    height: 264px;
+    box-shadow: 14px 15px 62px rgba(12, 169, 65, 0.12);
+    border-radius: 10px;   
+    margin-top: 50px;
+    background: aliceblue
+}
+
+.plant-trees-1 img {
+    width: 39px;
+    height: 54px;
+    margin-left: 90px;
+    background: #EEFFF4;
+    width: 103px;
+    height: 90px;
+}
+
+.dream-plant h2 {
+    text-align: center;
+    color: #374A3D;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.dream-plant p {
+    font-size: 18px;
+    color: #678570;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 auto;
+    width: 530px;
+}
+
+.flex {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+.star {
+    display: flex;
+    margin-left: 40px;
+}
+
+.star img {
+    margin-left: 10px;
+}
+.star p {
+    color: #678570;
+    margin-left: 10px;
+}
+
+.indoors-plant {
+    width: 360px;
+    height: 437px;
+    border-radius: 37px;
+    border: 0.5px solid rgba(0, 0, 0, 0.36);
+    background: #ffffff;
+    box-sizing: border-box;
+}
+
+.tree {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.indoors-plant h2 {
+    color: #374A3D;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-2 h4 {
+    color: #0CA941;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-2 {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.btn {  
+    width: 128px;
+    height: 43px;
+    background: #ffffff;
+    border: 0.5px solid rgba(55, 74, 61, 0.36);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 78px;
+}
+
+.btn h3 {
+    color: #678570;
+    font-size: 16px;
+    font-weight: 600;
+}
+.content-2 {
+    display: flex;
+}
+
+.monstera-care{
+    width: 360px;
+    height: 437px;
+    background: #ffffff;
+    border: 0.5px solid rgba(0, 0, 0, 0.36);
+    border-radius: 37px;
+    margin-left: 40px;
+}
+ 
+.care {
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.monstera-care h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #374A3D;
+    font-weight: 400;
+}
+
+.star-1 {
+    display: flex;
+    margin-left: 30px;
+}   
+
+.star-1 img {
+    margin-left: 10px;
+}
+
+.star-1 p {
+    margin-left: 10px;
+    color: #678570;
+}
+
+.text-3 h4 {
+    color: #0CA941;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.text-3 {
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.add {
+    width: 128px;
+    height: 43px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 0.5px solid rgba(55, 74, 61, 0.36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 78px;
+}
+
+.add h3 {
+    color: #678570;
+    font-size: 16px;
+    font-weight: 600;
+}
+.container-5 {
+    display: flex;
+}
+
+
+.leaf-potted{
+    width: 360px;
+    height: 437px;
+    background: #ffffff;
+    border: 0.5px solid rgba(0, 0, 0, 0.36);
+    border-radius: 37px;
+    margin-left: 40px;
+}
+ 
+.leaf {
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.leaf-potted h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #374A3D;
+    font-weight: 400;
+}
+
+.star-2 {
+    display: flex;
+    margin-left: 52px;
+}   
+
+.star-2 img {
+    margin-left: 10px;
+}
+
+.star-2 p {
+    margin-left: 10px;
+    color: #678570;
+}
+
+.content-3 h4 {
+    color: #0CA941;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.content-3 {
+    margin-top: 25px;
+    margin-left: 65px;
+}
+
+.add-cart {
+    width: 128px;
+    height: 43px;
+    background: #ffffff;
+    border-radius: 10px;
+    border: 0.5px solid rgba(55, 74, 61, 0.36);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.add-cart h3 {
+    color: #678570;
+    font-size: 16px;
+    font-weight: 600;
+}
+.contents {
+    display: flex;
+}
+
+.about-garden {
+    width: 1170px;
+    height: 508px;
+    background: #f8f8f8;
+    border-radius: 19px;
+    margin-left: 140px;
+    margin-top: 120px;
+    display: flex;
+}
+
+.info h2 {
+    margin-left: 260px;
+    font-size: 36px;
+    color: #374A3D;
+    font-weight: 400;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+.info p {
+    width: 626px;
+    color: #678570;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 260px;
+}
+
+.input-1 input {
+    background: #ffffff;
+    border: 1px solid #0CA941;
+    border-radius: 10px;
+    width: 491px;
+    height: 81px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.subscribe-1 {
+    background: #0CA941;
+    border-radius: 10px;
+    width: 223px;
+    height: 81px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe-1 h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.input-subscribe {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.flex-1 {
+    display: flex;
+}
+.social {
+    display: flex;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+
+.social h2 {
+    color: #374A3D;
+    font-weight: 400;
+}
+.info-1  p{
+    color: #678570;
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    margin-left: 170px;
+    margin-bottom: 20px;
+}
+
+.flex-2{
+    display: flex;
+    margin-left: 170px;
+}
+.facebook {
+    width: 41px;
+    height: 39px;
+    background: #0CA941;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.twitter {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.pinterest {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.linkedin {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.about-company {
+    margin-left: 150px;
+}
+
+.about-company p {
+    margin-bottom: 10px;
+}
+
+.about-company h2 {
+    margin-bottom: 10px;
+    color: #374A3D;
+    font-weight: 400;
+}
+
+.support {
+    margin-left: 150px;
+}
+.support h2{
+    margin-bottom: 10px;
+    color: #374A3D;
+    font-weight: 400;
+}
+
+.support p {
+    margin-bottom: 10px;
+}
+
+.contact h2 {
+    color: #374A3D;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    margin-bottom: 5px;
+}
+
+.contact {
+    margin-left: 150px;
+}
+
+.line {
+    margin: 0 auto;
+    width: 1166px;
+    border: 1px solid #bf7949;
+}
+
+.footer-inner {
+    margin: 0 auto;
+    display: flex;
+    margin-left: 150px;
+}
+
+.footer-inner img {
+    margin-left: 100px;
+}
